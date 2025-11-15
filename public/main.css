@@ -1,0 +1,52 @@
+/**
+ * Z-INDEX
+ * modal                 2000
+ * dashboardNav:         1000
+ * dashboardBarProjects: 1000
+ * projectSidebar:        900
+ * authBg:                  2
+*/
+:root{
+    --font: "Circular Std", sans-serif;
+    --font-mono: "Source Code Pro", sans-serif;
+
+    --bg-black: #171717;
+    --bg-gray: #1F1F1F;
+    --line-gray: #2E2E2E;
+    --icons-gray: #898989;
+    --txt-gray: #B4B4B4;
+    --txt-white: #FAFAFA;
+    --txt-blue: #2662D9;
+
+    --btn-gray-bg: #242424;
+    --btn-gray-line: #363636;
+    --btnHover-gray-line: #454545;
+
+    --btn-red-bg: #541C15;
+    --btn-red-line: #7F2315;
+    --btn-red-icon: #FE8972;
+    --btnHover-red-bg: #7A2E1E;
+    --btnHover-red-line: #E54D2E;
+
+    --btn-orange-bg: #E56000;
+    --btn-orange-line: #FF6A00;
+    --btn-orange-icon: #FF9933;
+    --btnHover-orange-bg: #E57300;
+    --btnHover-orange-line: #FF8000;
+
+    --btn-green-bg: #006239;
+    --btn-green-line: #138353;
+    --btn-green-icon: #85E0BA;
+    --btnHover-green-bg: #2A7252;
+    --btnHover-green-line: #3ECF8E;
+}
+html{ min-height: 100%; display: flex; flex-direction: column }
+body{ padding: 0; margin: 0; background: var(--bg-black); scrollbar-width: none; display: flex; flex-direction: column; flex-grow: 1; position: relative; color: var(--txt-white); font-family: var(--font); font-weight: 400; line-height: 100%; letter-spacing: 0.01em }
+body::-webkit-scrollbar{ display: none }
+*{ box-sizing: border-box }
+a{ text-decoration: none; color: inherit }
+form, p, h1, h2, h3, h4, h5, h6{ margin: 0; padding: 0 }
+input, button, textarea{ outline: none; font-family: var(--font); font-weight: 400; letter-spacing: 0.05em }
+#app{ width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; flex-grow: 1 }
+
+.center{ text-align: center }
