@@ -1,4 +1,4 @@
-# Test task: Select
+# Task: Select
 ![Illustration](./illustration.png)
 
 ## Technical specification
@@ -10,4 +10,4 @@ The following behavior should be implemented:
 - In Options, you don't need to use icons like in a Figma, just text options: "Option 1", "Option 2", "OPtion 3", ...
 
 ## Note
-- To add an svg icon, create a file in the `src/icons` folder, for example `icon.svg`, copy the icon from Figma to svg and paste it into this file. In the inserted svg, delete all the `fill`, `width`, `height` attributes so that they can be changed later via css. If the copied svg uses the stroke attribute instead of fill, then in Figma, before copying, you need to apply "Flatten" and "Outline stroke" to the icon
+- To add an svg icon, create a file in the `src/icons` folder, for example `icon.svg`, copy the icon from Figma to svg and paste it into this file. In the inserted svg, delete all the `fill`, `width`, `height` attributes so that they can be changed later via css. If the copied svg uses the stroke attribute instead of fill, then in Figma, before copying, you need to apply "Flatten" and "Outline stroke" to the icon. To use this icon in the code, use import: `import { ReactComponent as IconSvg } from "./icons/icon.svg"`
