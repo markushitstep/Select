@@ -15,7 +15,7 @@ The following behavior should be implemented:
 - To add an svg icon, create a file in the `src/icons` folder, for example `icon.svg`, copy the icon from Figma to svg and paste it into this file. In the inserted svg, delete all the `fill`, `width`, `height` attributes so that they can be changed later via css. If the copied svg uses the stroke attribute instead of fill, then in Figma, before copying, you need to apply "Flatten" and "Outline stroke" to the icon. To use this icon in the code, use import: `import { ReactComponent as IconSvg } from "./icons/icon.svg"`
 
 ## Implementation example
-![Illustration](./illustration.mp4)
+![Illustration](./illustration.gif)
 
 ## Example of App.tsx
 ![Illustration](./app.tsx.png)
